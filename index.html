@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+  <title>Pizza King</title>
+  <link rel="stylesheet" href="style.css" media="screen" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="images/logo-white.png" alt="logo" />
+    </a>
+    <nav class="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Menu</a>
+      <a href="#">Products</a>
+      <a href="#">Review</a>
+      <a href="#">Contact</a>
+      <a href="#">Blogs</a>
+    </nav>
+
+    <div class="buttons">
+      <button>
+        <i><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+          </svg></i>
+      </button>
+      <button>
+        <i><svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">
+            <path
+              d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+          </svg></i>
+      </button>
+      <button id="menu-btn" type="button" data-state="close">
+        <i><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+          </svg></i>
+      </button>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Home Section Start-->
+
+  <section class="home">
+    <div class="content">
+      <h3>Every Bite, A Slice of Happiness!</h3>
+      <p>
+        A Slice of Pizza is the Key Not Only to Taste, but also to Happiness.
+        We are the Best in Every Slice By Combining Fresh Ingredients,
+        Carefully Selected Dough and Our Original Recipes, We Will Serve You
+        an Unforgettable We Offer a Pizza Experience. Each Slice of Sharing,
+        Smile and Sweet Memories It is a Reflection.
+      </p>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <!-- Home Section End-->
+
+  <!-- Menu Section Start-->
+
+  <section class="menu">
+    <h1 class="heading">Our Menu</h1>
+    <div class="box-contanier">
+      <div class="box">
+        <div class="box-head">
+          <img src="images/menu-1.jpg" class="menu-1" alt="menu" />
+          <span class="menu-category">Pizza</span>
+          <h3>Veggie Pizza</h3>
+          <div class="price">129.90₺<span>184.90</span></div>
+        </div>
+        <div class="box-bottom">
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/menu-2.jpg" class="menu-2" alt="menu" />
+          <span class="menu-category">Burger</span>
+          <h3>Mini Burgers</h3>
+          <div class="price">98.90₺ <span>125.90</span></div>
+        </div>
+        <div class="box-bottom">
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/menu-3.jpg" class="menu-3" alt="menu" />
+          <span class="menu-category">Pasta</span>
+          <h3>Italian Pasta</h3>
+          <div class="price">112.90₺<span>148.90</span></div>
+        </div>
+        <div class="box-bottom">
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-head">
+          <img src="images/menu-4.jpg" class="menu-4" alt="menu" />
+          <span class="menu-category">sandwich</span>
+          <h3>Vegetable Tacos</h3>
+          <div class="price">82.90₺<span>118.90</span></div>
+        </div>
+        <div class="box-bottom">
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section End-->
+
+  <!-- About Section Start-->
+
+  <section class="about">
+    <h1 class="heading">ABOUT US</h1>
+    <div class="row">
+      <div class="image">
+        <img src="images/hakkimizda.jpg" alt="about" />
+      </div>
+      <div class="content">
+        <h3>
+          Are You Ready to Explore the Passion of Our Flavor? Our Taste Awaits
+          You!
+        </h3>
+        <p>
+          As Lezzet Vadisi Pizza, we offer everything from the selection of
+          each ingredient to the preparation of the dough, from the oven to
+          your table. You are here to see the importance we attach to quality
+          at every stage until your arrival. freshest With our ingredients,
+          carefully selected dough and original recipes, we make each slice a
+          work of art. We make it.
+        </p>
+        <a href="#" class="btn2">Learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section End-->
+  <!-- Review Section Start -->
+
+  <section class="review">
+    <h1 class="heading">CUSTOMER'S REVIEW</h1>
+    <div class="box-contanier">
+      <div class="box">
+        <img src="images/quote.png" alt="quote" />
+        <p>
+          Canım eşim ile lezzetine hayran kaldığımız bir mekan. Evlenmeden
+          önce üniversite yıllarımızdan beri geliriz. Yıllardır o tatlı
+          dokusunu hiç kaybetmemiş. Gerçi eşim böyle söylüyor ve bende ne
+          derse zevkle katılırım. Çünkü canım eşim. Ne derse güzel der.
+        </p>
+        <img src="images/hüsnüm.jpg" alt="hüsnüm" class="user" />
+        <h3>Hüsnü Can ŞEN</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/quote.png" alt="quote" />
+        <p>
+          Böylesi mekanlara ilk girdiğimde hep insanların dip dibe masalarda
+          oturup oturmadığını felsefi bakış açımla değerlendirip gözlemlerim,
+          eğer istediğim gibiyse kapıyı yavaşca kapatır ve içeri girerim. Ama
+          yok eğer insanlar dip dibe masalarda oturup nefes alacak alanları
+          yoksa gıcık olurum ve kapıyı sertçe kapatıp çıkarım. Neyse burası
+          yumuşak yüzümü görüp kendisini sevdirdi. Özellikle sebzeli
+          tacolarına bayıldım. Her zaman gelirim. Tabii içerideki insanlar
+          yüksek sesle konuşmayıp beni gıcık etmezse.
+        </p>
+        <img src="images/tuçe.jpg" alt="tuçe" class="user" />
+        <h3>Tuğçe ÖZER</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="box">
+        <img src="images/quote.png" alt="quote" />
+        <p>
+          Ben hiç beğenmedim. Ben tatlı bir kız çocuği köpeğiyim ve damak
+          tadıma uygun bir parça yemek bile yok. Ne biçim yer burası. Anneme
+          söylicem bir daha buraya patimizi basmayalım. Ayrıca masalar
+          birbirine çok uzak hiç sevmedim, insanlara musallat olamıyorum böyle
+          olunca. Zaten bacak boyum kısa. Çok koşmam gerekiyor. E ne anladım
+          ben bu işten zaten doğru düzgün kendime göre yiyecek bir şey
+          bulamadım bir de üstüne masalar arası koşu yarışı yaparak ponçik
+          bünyemde ne var ne yok eritiyorum. S-E-V-M-E-D-İ-M-!
+        </p>
+        <img src="images/lily.jpg" alt="lily" class="user" />
+        <h3>Lily ÖZER</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Review Section End -->
+
+  <!-- Contact Section Start -->
+
+  <section class="contact">
+    <h1 class="heading">CONTACT US</h1>
+    <div class="row">
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6119.130744481322!2d32.822345466470516!3d39.92874161297049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f20f1e3c1e1%3A0x371e33cacc518318!2sBah%C3%A7elievler%2C%2006490%20%C3%87ankaya%2FAnkara!5e0!3m2!1str!2str!4v1703200415429!5m2!1str!2str"
+        width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <form>
+        <h3>GET IN TOUCH</h3>
+        <div class="inputBox">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Name" required />
+        </div>
+        <div class="inputBox">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="Email" required />
+        </div>
+        <div class="inputBox">
+          <i class="fas fa-phone"></i>
+          <input type="number" placeholder="phone number" required />
+        </div>
+        <input type="submit" class="btn" value="Contact Now" />
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section End -->
+
+  <!-- Footer Section Start -->
+  <section class="footer">
+    <div class="search">
+      <input type="text" class="search-input" placeholder="Search" />
+      <button class="btn">search</button>
+    </div>
+    <div class="share">
+      <a href="#" class="fab fa-facebook"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit">
+      created by <span>Tugce Ozdil</span> | all rights reserved
+    </div>
+  </section>
+
+  <!-- Footer Section End -->
+</body>
+
+</html>
